@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../Images/apple.jpg');
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.navbar{
+    border: 0.5px solid black;
+    background-color: rgb(45, 53, 53);
+    height: 65px;
+}
+.navbar ul{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.navbar ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: rgb(147, 141, 141);
+}
+
+.rightNav {
+    position: relative;
+    left: 925px;
+    top: -52px;
+    text-size-adjust: 10px;
+}
+
+.btn{
+    border: 2px solid white;
+    border-radius: 8px ;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(29, 235, 29);
+}
+
+input{
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    height: 33px;
+    border-radius: 6px;
+}
+
+input::placeholder{
+    position: relative;
+    left: 10px;
+    font-size: 17;
+}
+
+.vpn{
+    padding: 6px 10px;
+    font-size: 19px;
+    position: relative;
+    color: white;
+    background-color: rgb(237, 14, 14);
+    top: 1px;
+    border-radius: 4px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.vpn:hover{
+    background-color:rgb(29, 235, 29) ;
+    border: 1px solid white;
+    color: black;
+}
+
+.container{
+    color: white;
+    display: block;
+    position: relative;
+    left: 525px;
+    top: 350px;
+}
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.container .my{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 10px;
+    position: relative;
+    left: 17px;
+}
+.container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 10px;
+    position: relative;
+    left: -50px;
+}
+
+.aim{
+    position: relative;
+    top: 30px;
+    padding: 10px 19px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px ;
+    border-radius: 3px;
+}
+
+.aim-dark{
+    background-color: rgb(225, 16, 16);
+    color: aliceblue;
+}
+
+.aim-park{
+    background-color:rgb(16, 16, 232);
+    color: aliceblue;
+}
+.aim-lark{
+    background-color: rgb(3, 249, 69);
+    color: aliceblue;
+}
+
+.aim:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
